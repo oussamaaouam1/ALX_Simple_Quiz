@@ -1,5 +1,6 @@
 function checkAnswer(){
   let correctAnswer = "4"
+  var userAnswer;
   var selectedAnswer = document.querySelectorAll('input[name="quiz"]')
   selectedAnswer.forEach(inp=>{
     if(inp.checked ===true){
