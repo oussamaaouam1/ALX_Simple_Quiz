@@ -7,7 +7,7 @@ function checkAnswer(){
       userAnswer = inp.value ;
     }
   })
-  if(userAnswer === correctAnswer){
+  if (userAnswer === correctAnswer){
     document.getElementById("feedback").textContent ="Correct! Well done.";
   } else {
     document.getElementById("feedback").textContent = "That's incorrect. Try again!";
